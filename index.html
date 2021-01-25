@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Custom css -->
+    <link rel="stylesheet" href="style.css">
+    <title>Neamot Ara Bank Limited</title>
+
+</head>
+
+<body>
+
+    <!-- Login Area -->
+
+    <div id="login-area">
+
+        <h1 class="text-center">Welcome to Neamot Ara Bank</h1>
+
+        <div class="submit-area">
+
+            <h4>Login</h4>
+            <input type="email" name="" id="" placeholder="Your Email" class="form-control">
+            <br>
+            <input type="password" name="" id="" placeholder="Your Password" class="form-control">
+            <br>
+            <button id="login" class="btn btn-success">Enter</button>
+
+        </div>
+    </div>
+
+    <!-- Transaction Area -->
+
+    <div id="transaction-area">
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="deposit status">
+                    <h4>Deposit</h4>
+                    <h2>$ <span id="currentDeposit">0</span> </h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="withdraw status">
+                    <h4>Withdraw</h4>
+                    <h2>$ <span id="currentWithdraw">0</span> </h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="balance status">
+                    <h4>Balance</h4>
+                    <h2>$ <span id="currentBalance">1500</span> </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+
+                <div class="submit-area">
+                    <h4>Deposit</h4>
+                    <input id="depositAmount" type="text" class="form-control" placeholder="$ amount you want to deposit">
+                    <br>
+                    <button id="addDeposit" class="btn btn-success">Deposit</button>
+                </div>
+
+            </div>
+
+            <div class="col-md-6">
+
+                <div class="submit-area">
+                    <h4>Withdraw</h4>
+                    <input id="withdrawAmount" type="text" class="form-control" placeholder="$ amount you want to withdraw">
+                    <br>
+                    <button id="addWithdraw" class="btn btn-success">Withdraw</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
