@@ -3,7 +3,6 @@ body{
 }
 .submit-area{
     margin-top: 50px;
-    margin-bottom: 50px;
     padding: 50px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px gray ;
@@ -12,7 +11,7 @@ body{
     display: none;
 }
 .status{
-    margin: 0px 20px;
+    margin: 20px 20px;
     color: #fff;
     padding: 20px;
     border-radius: 10px;
